@@ -1,1 +1,9 @@
-<p>personas works!</p>
+<div class="personas">
+    <h3> Esta es nuestra lista de personas!</h3>
+    <div *ngFor="let persona of personas">
+    <h3>Podes encontrar a:</h3>
+    <p>Nombre: {{persona.nombre}}</p>
+    <p>Apellido: {{persona.apellido}}</p>
+    <p>Edad: {{persona.edad}}</p>
+</div>
+</div>
