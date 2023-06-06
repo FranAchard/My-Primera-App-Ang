@@ -1,1 +1,10 @@
-<p>persona works!</p>
+<div class="persona">
+    <h3>Podes encontrar a:</h3>
+    <input type="text" [(ngModel)]="persona.nombre">
+    <p>Nombre: {{persona.nombre}}</p>
+    <p>Apellido: {{persona.apellido}}</p>
+    <p>Edad: {{persona.edad}}</p>
+    <button class="btn btn-primary mb-3" (click)="festejo(persona)" >Cumplir Años</button>
+    <br>
+    <button class="btn btn-primary mb-3" (click)="resta(persona)" >Restar Años</button>
+</div>
